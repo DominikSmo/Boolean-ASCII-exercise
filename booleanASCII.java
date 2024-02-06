@@ -10,7 +10,7 @@ public class booleanASCII {
 
     public static boolean exercise() {
         //Check if the numeric equivalents of letters 'A', 'G', 'X' from the ASCII table are stored in 'numbers' array.
-        // If so, match them a 'true' or 'false' value. Then find the numbers of indices which store arguments of these letters from ASCII table
+        // If so, match them a 'true' or 'false' value. Then find the numbers of indices which store arguments of these letters from the ASCII table
         int[] numbers = {82, 89, 74, 67, 74, 78, 84, 80, 69, 75, 65, 78, 90, 87, 75, 86, 68, 78, 72, 89, 67, 84, 69, 71, 66, 71, 88, 74, 80, 73, 77, 77, 90, 67, 69, 85, 89, 81, 85, 84, 84, 67, 79, 66, 72, 74, 82, 83, 68, 89, 73};
         boolean isA = false;
         boolean isG = false;
@@ -22,15 +22,15 @@ public class booleanASCII {
 
         for (int i = 0; i < numbers.length; i++) {
 
-            if (numbers[i] == 65) {             // Number '65' is an argument for whom is matched letter 'A' in ASCII table
+            if (numbers[i] == 65) {             // Number '65' is an argument for whom is matched letter 'A' in the ASCII table
                 isA = true;
                 numberOf65++;
             }
-            if (numbers[i] == 71) {             // Number '71' is an argument for whom is matched letter 'G' in ASCII table
+            if (numbers[i] == 71) {             // Number '71' is an argument for whom is matched letter 'G' in the ASCII table
                 isG = true;
                 numberOf71++;
             }
-            if (numbers[i] == 88) {             // Number '88' is an argument for whom is matched letter 'X' in ASCII table
+            if (numbers[i] == 88) {             // Number '88' is an argument for whom is matched letter 'X' in the ASCII table
                 isX = true;
                 numberOf88++;
             }
